@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Satoshi", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(50, 50, 50);
+    overflow: hidden;
+}
+
+body {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-rows: 120px 1fr; 
+    grid-template-columns: 240px repeat(4, 1fr)
+}
+
+
+aside {
+    grid-row: 1 / 8;
+    grid-column: 1 / 2;
+    height: 100%;
+}
+
+#dashborad-link {
+    text-decoration: none;
+    color: #333;
+}
+.logo-title {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    width: 250px;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+aside ul {
+    margin-top: 50px;
+    height: 100%;
+}
+aside input {
+    font-family: "Satoshi", sans-serif;
+    justify-self: center;
+    margin: 10px 39px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: #2C7798;
+    /* background-color: #49BAEB; */
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    opacity: 50%;
+}
+aside a {
+    justify-self: center;
+}
+
+#add-patient-button {
+    background-color: #49EBB1;
+}
+
+.logout-button {
+    grid-row: 8 / 9;
+    margin-top: 50px;
+    padding: 10px 20px;
+
+    border-radius: 0px;
+    border: 2px solid rgb(100, 100, 100);
+    background-color: transparent;
+
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 100%;
+}
+
+#appointments {
+    background-color: #333;
+    color: aliceblue;
+    opacity: 100%;
+}
+
+main {
+    grid-column: 2/6;
+    grid-row: 1/3;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 100px 1fr;
+}
+
+#main_h1 {
+    grid-column: 1/4;
+    justify-self: left;
+    align-self: center;
+    margin-top: 33px;
+    margin-left: 38px;
+}
+
+#searchdiv {
+    grid-row: 1;
+    grid-column: 6/9;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    display: flex;
+    /* height: 50px; */
+    /* background-color: #2C7798; */
+}
+
+#Searchbar {
+    height: 30px;
+    width: 350px;
+    border-radius: 30px;
+    border: 2px solid rgb(50, 50, 50);
+    font-family: "Satoshi", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#Search {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+    height: 29px;
+    width: 29px;
+    vertical-align: center;
+    display: inline-block;
+    border: 2px solid rgb(50, 50, 50);
+    margin-left: 5px;
+    padding-top: 3px;
+}
+
+table {
+    grid-column: 1/9;
+    /* border: #333 1px solid; */
+    width: 100%;
+    margin: 50px 35px;
+}
+
+table, th, td {
+    /* border: #333 1px solid; */
+    height: 50px;
+    font-size: 15px;
+}
+
+table, td {
+    text-align: left;
+}
+
+#add-record {
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #C17DEF;
+    color: white;
+    font-family: "Satoshi", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cancel {
+    height: 24px;
+    width: 24px;
+    border-radius: 30px;
+    border: 2px black solid;
+    background-color: white;
+    color: red;
+    font-family: "Satoshi", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+#add-pat-a {
+    grid-row: 3;
+    grid-column: 8;
+    margin-bottom: 10px;
+}
+

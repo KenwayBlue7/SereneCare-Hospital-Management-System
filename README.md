@@ -6,6 +6,53 @@ A comprehensive web-based Hospital Management System designed to streamline heal
 
 SereneCare is a modern hospital management solution that digitalizes and automates various hospital operations including patient management, appointment scheduling, medical records, billing, and administrative tasks. The system is designed to enhance operational efficiency while maintaining high standards of patient care.
 
+## 📸 Screenshots
+
+### Landing Page & Dashboard
+<div align="center">
+  <img src="Screenshots/Landing.png" alt="Landing Page" width="45%" />
+  <img src="Screenshots/Dashboard.php.png" alt="Dashboard" width="45%" />
+</div>
+
+### Patient Management
+<div align="center">
+  <img src="Screenshots/patients.png" alt="Patients List" width="30%" />
+  <img src="Screenshots/Patient_Add.php.png" alt="Add Patient" width="30%" />
+  <img src="Screenshots/Patient_View.php.png" alt="View Patient" width="30%" />
+</div>
+
+### Appointment Management
+<div align="center">
+  <img src="Screenshots/Appointments.php.png" alt="Appointments List" width="45%" />
+  <img src="Screenshots/Appointments-Add.php.png" alt="Add Appointment" width="45%" />
+</div>
+
+### Billing System
+<div align="center">
+  <img src="Screenshots/billings.png" alt="Billings Overview" width="30%" />
+  <img src="Screenshots/Billings.php.png" alt="Billing Management" width="30%" />
+  <img src="Screenshots/Add-Bill.php.png" alt="Add Bill" width="30%" />
+</div>
+
+### Staff & Room Management
+<div align="center">
+  <img src="Screenshots/employees.png" alt="Employees Overview" width="30%" />
+  <img src="Screenshots/Employees.php.png" alt="Employee Management" width="30%" />
+  <img src="Screenshots/Employees_add.php.png" alt="Add Employee" width="30%" />
+</div>
+
+<div align="center">
+  <img src="Screenshots/rooms.png" alt="Rooms Overview" width="30%" />
+  <img src="Screenshots/Room-Add.php.png" alt="Add Room" width="30%" />
+  <img src="Screenshots/Room-Rem.php.png" alt="Remove Room" width="30%" />
+</div>
+
+### Additional Features
+<div align="center">
+  <img src="Screenshots/records.png" alt="Medical Records" width="45%" />
+  <img src="Screenshots/users.png" alt="User Management" width="45%" />
+</div>
+
 ## ✨ Features
 
 ### Core Modules
@@ -14,7 +61,8 @@ SereneCare is a modern hospital management solution that digitalizes and automat
 - **Medical Records**: Digital storage and retrieval of patient medical records
 - **Billing & Finance**: Integrated billing system with payment processing
 - **Staff Management**: Employee management and role-based access control
-- **Inventory Management**: Medicine and equipment inventory tracking
+- **Room Management**: Hospital room allocation and management
+- **User Management**: System user administration and access control
 - **Reports & Analytics**: Comprehensive reporting and data analytics
 
 ### Key Functionalities
@@ -116,12 +164,15 @@ SereneCare is a modern hospital management solution that digitalizes and automat
 3. **Appointments**: Schedule and manage patient appointments
 4. **Medical Records**: Add and view patient medical histories
 5. **Billing**: Generate bills and process payments
-6. **Reports**: Generate various operational reports
+6. **Room Management**: Allocate and manage hospital rooms
+7. **Staff Management**: Manage employees and their roles
+8. **Reports**: Generate various operational reports
 
 ## 🏗️ Project Structure
 
 ```
 serenecare/
+├── Screenshots/          # Application screenshots
 ├── assets/
 │   ├── css/
 │   ├── js/
@@ -136,6 +187,8 @@ serenecare/
 │   ├── patients/
 │   ├── appointments/
 │   ├── billing/
+│   ├── employees/
+│   ├── rooms/
 │   └── reports/
 ├── database/
 │   └── schema.sql
@@ -177,7 +230,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 For support and questions:
-- **Email**: [niranjankj639@gmail.com](niranjankj639@gmail.com)
+- **Email**: [niranjankj639@gmail.com](mailto:niranjankj639@gmail.com)
 
 ## 🙏 Acknowledgments
 
